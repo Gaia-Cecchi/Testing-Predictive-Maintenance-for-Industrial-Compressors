@@ -1,0 +1,453 @@
+timestamp,llm_classification,original_classification,discharge_temp_true,vibration_true,ambient_temperature,humidity,llm_analysis
+2024-05-31 18:00:00,TRUE_POSITIVE,TRUE_POSITIVE,116.86029184799068,2.330438544052468,18.37708133488839,68.95383398445101,"ANOMALIA VERA - MANUTENZIONE NECESSARIA
+
+**Analisi Tecnica:**
+
+- **Rapporto di compressione**: Il rapporto di compressione è calcolato come pressione di scarico diviso pressione di aspirazione. In questo caso, il rapporto è di 9.96/1.13 = 8.81, che è oltre il range ottimale (4.0-6.5) e la soglia di attenzione (6.5-8.0). Questo indica un possibile problema alle valvole o perdite nel sistema di compressione.
+
+- **Temperatura di scarico**: La temperatura di scarico è leggermente inferiore al previsto, ma è comunque all'interno del range normale (80-120°C). Tuttavia, la temperatura di scarico è influenzata anche dal rapporto di compressione, che è elevato.
+
+- **Vibrazione**: La vibrazione è leggermente inferiore al previsto, ma è all'interno del range normale (0.5-3.0 mm/s). Tuttavia, la vibrazione è prossima alla soglia di attenzione (3.0-4.5 mm/s).
+
+- **Condizioni ambientali**: La temperatura ambiente è 18.38°C, l'umidità è 68.95% e la pressione atmosferica è 1002.25 hPa. Queste condizioni ambientali non sono particolarmente estreme e non dovrebbero causare una deviazione così significativa del rapporto di compressione.
+
+**Conclusione:**
+L'elevato rapporto di compressione (8.81) è un indicatore forte di un'anomalia vera. Questo potrebbe indicare un problema alle valvole o perdite nel sistema di compressione. Nonostante la temperatura di scarico e la vibrazione siano entro i limiti, l'elevato rapporto di compressione suggerisce un deterioramento delle prestazioni del compressore che richiede un intervento di manutenzione. 
+
+Si consiglia di eseguire una diagnosi completa del compressore e pianificare un intervento di manutenzione per verificare e potenzialmente riparare le valvole o risolvere eventuali perdite nel sistema di compressione."
+2024-04-08 23:00:00,TRUE_POSITIVE,TRUE_POSITIVE,115.62964244542393,2.323837443309676,20.58055721947696,72.88169531550807,"**ANOMALIA VERA - MANUTENZIONE NECESSARIA**
+
+**Analisi Tecnica:**
+
+- **Rapporto di compressione**: Il rapporto di compressione è calcolato come la pressione di scarico diviso la pressione di aspirazione. Nel caso in esame, il rapporto di compressione è di circa 9.25 (9.16 bar / 0.99 bar), che è oltre il range ottimale (4.0-6.5) e la soglia di attenzione (6.5-8.0), superando la soglia critica (>8.0). Questo indica un possibile problema alle valvole o perdite nel sistema di compressione.
+
+- **Temperatura di scarico**: La temperatura di scarico è di 115.63°C, che è al limite superiore del range normale (80-120°C). Tuttavia, considerando il rapporto di compressione critico, la temperatura di scarico elevata potrebbe essere un segnale di inefficienza del sistema di raffreddamento o sovraccarico termico.
+
+- **Vibrazione**: La vibrazione è di 2.32 mm/s, che è all'interno del range normale (0.5-3.0 mm/s). Tuttavia, la vibrazione è vicina al limite superiore del range normale, il che potrebbe indicare un problema meccanico iniziale.
+
+- **Condizioni ambientali**: La temperatura ambiente è di 20.58°C, l'umidità è del 72.88% e la pressione atmosferica è di 1006.06 hPa. Queste condizioni ambientali non sono particolarmente estreme e non dovrebbero causare una deviazione così significativa nei parametri del compressore.
+
+**Conclusione:**
+L'anomalia è classificata come ""ANOMALIA VERA - MANUTENZIONE NECESSARIA"" poiché il rapporto di compressione è oltre la soglia critica, indicando un possibile problema alle valvole o perdite nel sistema di compressione. La temperatura di scarico è al limite superiore del range normale e la vibrazione è vicina al limite superiore del range normale, indicando un possibile problema meccanico. Questi segnali combinati indicano un problema che richiede un intervento di manutenzione per prevenire un potenziale guasto."
+2024-04-08 20:00:00,FALSE_POSITIVE,TRUE_POSITIVE,117.42649390190375,2.3111061589734825,15.9074161814103,73.72167365452628,"FALSO POSITIVO
+
+**Analisi Tecnica:**
+
+- **Rapporto di compressione**: Il rapporto di compressione è calcolato come pressione di scarico diviso pressione di aspirazione, che in questo caso è 9.11/1.03 = 8.84. Questo valore è oltre il range ottimale (4.0-6.5) e la soglia di attenzione (6.5-8.0), ma non supera la soglia critica (>8.0). 
+- **Temperatura di scarico**: La temperatura di scarico è leggermente inferiore alla soglia di attenzione (120-145°C), ma è comunque al limite superiore del range normale (80-120°C). 
+- **Vibrazione**: La vibrazione è all'interno del range normale (0.5-3.0 mm/s) e non supera la soglia di attenzione (3.0-4.5 mm/s).
+- **Condizioni ambientali**: La temperatura ambiente è 15.91°C, l'umidità è 73.72% e la pressione atmosferica è 1008.70 hPa. L'umidità elevata può influire temporaneamente sull'efficienza del sistema di raffreddamento, ma non è così elevata da essere considerata un fattore critico.
+
+**Conclusione:**
+L'anomalia rilevata è probabilmente dovuta a condizioni ambientali, in particolare all'umidità elevata (73.72%), che può influire temporaneamente sull'efficienza del sistema di raffreddamento. La vibrazione è all'interno del range normale, e la temperatura di scarico è al limite superiore del range normale ma non supera la soglia di attenzione. Il rapporto di compressione è oltre il range ottimale, ma non supera la soglia critica. 
+
+In base a queste informazioni, l'anomalia è considerata un falso positivo, poiché è probabilmente correlata a condizioni ambientali e non indica un deterioramento delle prestazioni del compressore. Si consiglia di monitorare l'evoluzione dei parametri nel tempo e di verificare se la situazione si risolve spontaneamente con la riduzione dell'umidità. Non si richiedono interventi di manutenzione immediati."
+2024-03-26 11:00:00,TRUE_POSITIVE,TRUE_POSITIVE,132.83000326974155,3.1136537420179864,17.561274117888797,73.3411826121801,"ANOMALIA VERA - MANUTENZIONE NECESSARIA
+
+**Analisi Tecnica:**
+
+- **Rapporto di compressione**: Il rapporto di compressione è calcolato come la pressione di scarico diviso la pressione di aspirazione. Nel caso in questione, il rapporto di compressione è di 8.1 (9.07 bar / 1.12 bar), che è oltre il range ottimale (4.0-6.5) e nella zona di attenzione (6.5-8.0). Questo potrebbe indicare un problema alle valvole o perdite nel sistema di compressione.
+
+- **Temperatura di scarico**: La temperatura di scarico è di 132.83°C, che è al di sopra del range normale (80-120°C) e nella zona di attenzione (120-145°C). La temperatura ambiente è di 17.56°C, che non è particolarmente elevata, quindi l'elevata temperatura di scarico non è probabilmente dovuta a condizioni ambientali estreme.
+
+- **Vibrazione**: La vibrazione è di 3.11 mm/s, che è al di sopra del range normale (0.5-3.0 mm/s) e nella zona di attenzione (3.0-4.5 mm/s). Questo potrebbe indicare un problema meccanico, come un disallineamento o un'usura dei cuscinetti.
+
+- **Pressione di scarico**: La pressione di scarico è di 9.07 bar, che è al di sopra del valore previsto (8.18 bar). Questo potrebbe indicare un problema con il sistema di raffreddamento o un sovraccarico del sistema.
+
+**Conclusione:**
+L'anomalia è classificata come ""ANOMALIA VERA - MANUTENZIONE NECESSARIA"" poiché il rapporto di compressione è oltre il range ottimale, la temperatura di scarico è al di sopra del range normale, e la vibrazione è al di sopra del range normale. Questi parametri indicano un deterioramento delle prestazioni del compressore e potrebbero portare a guasti se non vengono affrontati. Non sembra che le condizioni ambientali siano la causa principale di queste anomalie, quindi è necessario un intervento di manutenzione per diagnosticare e risolvere il problema."
+2024-04-09 15:00:00,TRUE_POSITIVE,TRUE_POSITIVE,123.08906406747732,2.2788783407727493,17.378257020888693,67.92563325843815,"ANOMALIA VERA - MANUTENZIONE NECESSARIA
+
+**Analisi Tecnica:**
+
+- **Rapporto di compressione**: Il rapporto di compressione calcolato è di 9.9 (pressione di scarico 9.64 bar / pressione di aspirazione 0.97 bar). Questo valore è oltre il range critico di 8.0, indicando un possibile problema alle valvole o perdite nel sistema di compressione.
+- **Temperatura di scarico**: La temperatura di scarico è di 123.09°C, che è superiore al valore previsto di 121.28°C. Anche se non supera la soglia critica di 145°C, la differenza rispetto al valore previsto suggerisce un sovraccarico termico o inefficienza del sistema di raffreddamento.
+- **Vibrazione**: La vibrazione è di 2.28 mm/s, che è all'interno del range normale ma leggermente inferiore al valore previsto. Questo potrebbe indicare un problema meccanico che non è ancora critico ma richiede attenzione.
+- **Condizioni ambientali**: La temperatura ambiente è di 17.38°C, l'umidità è del 67.93% e la pressione atmosferica è di 1005.96 hPa. Queste condizioni ambientali non sono particolarmente estreme e non spiegano completamente l'elevato rapporto di compressione e la temperatura di scarico superiore al previsto.
+
+**Conclusione:**
+L'elevato rapporto di compressione oltre la soglia critica di 8.0 e la temperatura di scarico superiore al previsto indicano un'anomalia vera che richiede manutenzione. Questi segnali suggeriscono un possibile problema alle valvole o perdite nel sistema di compressione, che potrebbe portare a un deterioramento delle prestazioni se non affrontato. Pertanto, è consigliabile pianificare un intervento di manutenzione per esaminare le valvole e il sistema di raffreddamento."
+2024-05-15 12:00:00,TRUE_POSITIVE,TRUE_POSITIVE,119.1105548033585,4.582915921331766,25.719035451829253,70.19359836097705,"ANOMALIA VERA - MANUTENZIONE NECESSARIA
+
+**Analisi Tecnica:**
+
+- **Vibrazione critica**: La vibrazione del compressore è di 4.58 mm/s, che supera la soglia critica di 4.5 mm/s. Questo è un indicatore forte di un'anomalia vera, poiché una vibrazione così elevata suggerisce un problema meccanico serio, come un disallineamento, un cuscinetto danneggiato o un'usura dei componenti rotanti. Questo tipo di anomalia non si risolve spontaneamente e richiede un intervento di manutenzione.
+
+- **Rapporto di compressione**: Il rapporto di compressione è di 7.52/1.02 = 7.37, che è leggermente fuori dal range ottimale (4.0-6.5) ma non è critico. Tuttavia, combinato con la vibrazione critica, suggerisce un problema serio.
+
+- **Temperatura di scarico**: La temperatura di scarico è di 119.11°C, che è all'interno del range normale (80-120°C). Nonostante la temperatura di scarico sia all'interno del range normale, la combinazione con la vibrazione critica suggerisce un problema meccanico.
+
+- **Condizioni ambientali**: La temperatura ambiente è di 25.72°C, l'umidità è del 70.19% e la pressione atmosferica è di 1016.83 hPa. Queste condizioni ambientali non sono estreme e non dovrebbero causare una vibrazione così elevata.
+
+In conclusione, la vibrazione critica (4.58 mm/s) è un indicatore forte di un'anomalia vera, che richiede un intervento di manutenzione. Anche se altri parametri non sono critici, la vibrazione elevata suggerisce un problema meccanico serio che non si risolverà spontaneamente."
+2024-04-28 19:00:00,TRUE_POSITIVE,TRUE_POSITIVE,135.91615747842684,2.440593960430178,18.4373474422864,54.5373335383478,"ANOMALIA VERA - MANUTENZIONE NECESSARIA
+
+**Analisi Tecnica:**
+
+- **Temperatura di scarico:** La temperatura di scarico è di 135.92°C, che è al di sopra del range normale (80-120°C) e si trova nella zona di attenzione (120-145°C). Anche se non supera la soglia critica, è comunque significativamente superiore al valore previsto (120.76°C). Questo potrebbe indicare un problema di raffreddamento o un sovraccarico termico.
+
+- **Pressione di scarico:** La pressione di scarico è di 8.38 bar, leggermente superiore al valore previsto (8.37 bar). Questo potrebbe indicare un sovraccarico o un problema di efficienza.
+
+- **Pressione di aspirazione:** La pressione di aspirazione è di 0.94 bar, leggermente inferiore al valore previsto (0.95 bar). Questo potrebbe indicare una perdita o un problema di valvole.
+
+- **Vibrazione:** La vibrazione è di 2.44 mm/s, che è al limite superiore del range normale (0.5-3.0 mm/s) e si trova nella zona di attenzione (3.0-4.5 mm/s). Questo potrebbe indicare un problema meccanico, come un disallineamento o un problema con i cuscinetti.
+
+- **Condizioni ambientali:** La temperatura ambiente è di 18.44°C, l'umidità è del 54.54% e la pressione atmosferica è di 1014.29 hPa. Questi valori ambientali non sembrano essere estremi o fuori dal normale, quindi non sembrano essere la causa principale delle anomalie rilevate.
+
+**Conclusione:**
+Le anomalie rilevate non sembrano essere causate da condizioni ambientali estreme. La combinazione di una temperatura di scarico elevata, una pressione di scarico leggermente alta, una pressione di aspirazione leggermente bassa e una vibrazione al limite superiore del range normale suggerisce un problema reale che potrebbe richiedere un intervento di manutenzione. La persistenza di queste anomalie e la loro combinazione indicano che non si tratta di una situazione temporanea o di un falso positivo. Pertanto, si consiglia di eseguire una diagnosi completa del compressore e pianificare un intervento di manutenzione."
+2024-05-29 09:00:00,TRUE_POSITIVE,TRUE_POSITIVE,142.46883535510932,2.8463845023930148,25.344941848915354,59.2641418051345,"ANOMALIA VERA - MANUTENZIONE NECESSARIA
+
+**Analisi Tecnica:**
+
+- **Temperatura di scarico**: La temperatura di scarico è di 142.47°C, che è significativamente superiore al valore previsto di 124.74°C. Questo valore è all'interno della soglia di attenzione (120-145°C) ma è vicino alla soglia critica (>145°C). La temperatura ambiente di 25.34°C non è particolarmente elevata da spiegare un aumento così significativo della temperatura di scarico. Questo suggerisce un possibile problema di raffreddamento o un sovraccarico termico.
+
+- **Pressione di scarico**: La pressione di scarico è di 8.37 bar, che è superiore al valore previsto di 7.34 bar. Questo indica un rapporto di compressione di 8.9, che è oltre il range ottimale (4.0-6.5) e indica un possibile problema alle valvole o perdite nel sistema di compressione.
+
+- **Vibrazione**: La vibrazione è di 2.85 mm/s, che è superiore al valore previsto di 2.21 mm/s. Questo valore è all'interno della soglia di attenzione (3.0-4.5 mm/s) ma è significativamente superiore al valore previsto, indicando un possibile problema meccanico.
+
+- **Condizioni ambientali**: La temperatura ambiente di 25.34°C, l'umidità del 59.26% e la pressione atmosferica di 1003.82 hPa non sono particolarmente estreme da spiegare l'anomalia osservata. Questo suggerisce che l'anomalia non è probabilmente dovuta a condizioni ambientali estreme.
+
+In base a queste informazioni, l'anomalia è classificata come ""ANOMALIA VERA"" poiché:
+- La temperatura di scarico è elevata e non è spiegabile solo dalle condizioni ambientali.
+- Il rapporto di compressione è oltre il range ottimale, indicando un possibile problema alle valvole o perdite nel sistema di compressione.
+- La vibrazione è superiore al valore previsto, indicando un possibile problema meccanico.
+
+Si consiglia di eseguire una diagnosi completa del compressore e pianificare un intervento di manutenzione."
+2024-06-23 11:00:00,FALSE_POSITIVE,FALSE_POSITIVE,106.95187032657856,2.604350718083186,26.40728540053542,53.92906074852044,"FALSO POSITIVO
+
+**Analisi Tecnica:**
+
+- **Temperatura di scarico**: La temperatura di scarico è di 106.95°C, che è inferiore alla temperatura prevista di 108.64°C. Questo parametro è all'interno del range normale e non indica un'anomalia.
+
+- **Pressione di scarico**: La pressione di scarico è di 8.51 bar, che è superiore al valore previsto di 7.14 bar. Questo indica un rapporto di compressione di 7.83, che è al limite superiore del range ottimale (6.5-8.0). Tuttavia, la pressione di aspirazione è solo leggermente superiore al previsto (1.09 bar vs 1.06 bar), suggerendo una leggera variazione operativa.
+
+- **Vibrazione**: La vibrazione è di 2.60 mm/s, che è leggermente superiore al valore previsto di 2.47 mm/s. Questo è all'interno della zona di attenzione (3.0-4.5 mm/s), ma non supera la soglia critica.
+
+- **Condizioni ambientali**: La temperatura ambiente è di 26.41°C, l'umidità è di 53.93% e la pressione atmosferica è di 1010.51 hPa. Questi valori ambientali non sono estremi e non dovrebbero causare anomalie significative.
+
+**Conclusione:**
+L'aumento della pressione di scarico e della vibrazione, unitamente al rapporto di compressione leggermente elevato, suggerisce una variazione operativa temporanea. La temperatura di scarico è inferiore alla prevista e all'interno del range normale. Le condizioni ambientali non sono estreme e non dovrebbero causare anomalie significative. Pertanto, questa situazione è probabilmente un falso positivo dovuto a variazioni operative temporanee. Si consiglia di monitorare la situazione per ulteriori sviluppi, ma non si richiedono interventi di manutenzione immediati."
+2024-03-19 17:00:00,TRUE_POSITIVE,FALSE_POSITIVE,111.23256819533032,2.320839972852799,11.615607326799848,69.6108507197082,"ANOMALIA VERA - MANUTENZIONE NECESSARIA
+
+**Analisi Tecnica:**
+
+- **Rapporto di compressione**: Il rapporto di compressione è calcolato come la pressione di scarico diviso la pressione di aspirazione. Nel caso in esame, il rapporto di compressione è di circa 7.9 (8.86 bar / 1.12 bar). Questo valore è oltre il range ottimale (4.0-6.5) e indica un possibile problema alle valvole o perdite nel sistema di compressione.
+
+- **Temperatura di scarico**: La temperatura di scarico è leggermente inferiore al valore previsto (111.23°C vs 112.53°C), ma il rapporto di compressione elevato suggerisce un possibile sovraccarico termico.
+
+- **Vibrazione**: La vibrazione è leggermente inferiore al valore previsto (2.32 mm/s vs 2.45 mm/s), ma il rapporto di compressione elevato suggerisce un possibile problema meccanico.
+
+- **Condizioni ambientali**: La temperatura ambiente è relativamente bassa (11.62°C), l'umidità è moderata (69.61%) e la pressione atmosferica è normale (1000.16 hPa). Queste condizioni ambientali non sembrano essere la causa principale delle anomalie rilevate.
+
+**Conclusione:**
+L'elevato rapporto di compressione (7.9) indica un problema reale nel compressore, probabilmente legato a problemi alle valvole o perdite nel sistema di compressione. Questo non sembra essere un falso positivo correlato a condizioni ambientali o variazioni operative normali. Pertanto, è necessario pianificare un intervento di manutenzione per diagnosticare e risolvere il problema."
+2024-04-09 13:00:00,TRUE_POSITIVE,TRUE_POSITIVE,119.1064317171854,2.502894823545443,17.79839743211303,77.06599536620749,"ANOMALIA VERA - MANUTENZIONE NECESSARIA
+
+**Analisi Tecnica:**
+
+- **Rapporto di compressione**: Il rapporto di compressione è calcolato come la pressione di scarico diviso la pressione di aspirazione, che in questo caso è 9.73 bar / 1.00 bar = 9.73. Questo valore è significativamente superiore al range ottimale (4.0-6.5) e alla soglia di attenzione (6.5-8.0), superando la soglia critica (>8.0). Questo indica un possibile problema alle valvole o perdite nel sistema di compressione.
+
+- **Temperatura di scarico**: La temperatura di scarico è leggermente inferiore al valore previsto (119.11°C vs 120.49°C), ma il rapporto di compressione elevato suggerisce che potrebbe esserci un problema che non è stato completamente mitigato dalle condizioni ambientali.
+
+- **Vibrazione**: La vibrazione è leggermente superiore al valore previsto (2.50 mm/s vs 2.39 mm/s), indicando un possibile problema meccanico.
+
+- **Condizioni ambientali**: La temperatura ambiente (17.80°C) e l'umidità (77.07%) non sono particolarmente elevate da da giustificare una temperatura di scarico significativamente superiore al previsto. La pressione atmosferica (1012.67 hPa) è all'interno dei valori normali e non dovrebbe influenzare significativamente le prestazioni del compressore.
+
+In conclusione, l'elevato rapporto di compressione, combinato con la vibrazione leggermente superiore, suggerisce un'anomalia vera che richiede un intervento di manutenzione. Le condizioni ambientali non sembrano essere la causa principale dell'anomalia, quindi è probabile che ci sia un problema reale nel compressore che deve essere affrontato."
+2024-05-09 18:00:00,TRUE_POSITIVE,TRUE_POSITIVE,125.34587192420284,4.625567984568187,18.01707866127635,65.42479591249473,"**ANOMALIA VERA - MANUTENZIONE NECESSARIA**
+
+**Analisi Tecnica:**
+
+- **Vibrazione**: La vibrazione del compressore è misurata a 4.63 mm/s, superando la soglia critica di 4.5 mm/s. Questo è un indicatore forte di un'anomalia vera, poiché la vibrazione elevata suggerisce problemi meccanici, come cuscinetti usati, disallineamento o sbilanciamento. Questo tipo di anomalia non è solitamente correlata a condizioni ambientali e richiede un intervento di manutenzione.
+
+- **Rapporto di compressione**: Il rapporto di compressione è calcolato come pressione di scarico diviso pressione di aspirazione, che in questo caso è 8.17 (7.92 bar / 0.97 bar). Questo valore è sopra il range ottimale (6.5-8.0) e indica un possibile problema alle valvole o perdite nel sistema di compressione. Tuttavia, dato che la temperatura di scarico è all'interno del range normale (125.35°C), non è un indicatore così forte di un'anomalia vera.
+
+- **Temperatura di scarico**: La temperatura di scarico è misurata a 125.35°C, che è all'interno del range normale (80-120°C) e non supera la soglia di attenzione (120-145°C). Pertanto, non è un indicatore di un'anomalia vera.
+
+- **Condizioni ambientali**: La temperatura ambiente è 18.02°C, l'umidità è 65.42% e la pressione atmosferica è 1010.94 hPa. Questi valori non sono estremi e non dovrebbero influire significativamente sulle prestazioni del compressore.
+
+In conclusione, l'elevata vibrazione (4.63 mm/s) indica un'anomalia vera che richiede un intervento di manutenzione. La vibrazione elevata suggerisce un problema meccanico che potrebbe portare a guasti se non viene affrontato. Pertanto, è consigliabile pianificare un intervento di manutenzione per esaminare i componenti meccanici del compressore."
+2024-05-22 17:00:00,TRUE_POSITIVE,TRUE_POSITIVE,116.2207454966656,2.351606691107458,16.63937048638697,82.36579478970243,"ANOMALIA VERA - MANUTENZIONE NECESSARIA
+
+**Analisi Tecnica:**
+
+- **Rapporto di compressione**: Il rapporto di compressione è calcolato come la pressione di scarico diviso la pressione di aspirazione. In questo caso, il rapporto è di 12.00/0.89 = 13.48, che è significativamente superiore al range critico di 8.0. Questo indica un possibile problema alle valvole o perdite nel sistema di compressione.
+
+- **Temperatura di scarico**: La temperatura di scarico è di 116.22°C, che è al limite superiore del range normale (80-120°C), ma non supera la soglia di attenzione (120-145°C). Tuttavia, la temperatura di scarico è significativamente superiore al valore previsto (118.61°C), indicando un possibile problema di raffreddamento.
+
+- **Vibrazione**: La vibrazione è di 2.35 mm/s, che è all'interno del range normale (0.5-3.0 mm/s), ma è leggermente inferiore al valore previsto (2.47 mm/s). Questo potrebbe indicare un leggero disallineamento o un problema meccanico.
+
+- **Condizioni ambientali**: La temperatura ambiente è di 16.64°C, l'umidità è di 82.37%, e la pressione atmosferica è di 1020.09 hPa. L'umidità elevata potrebbe influire sull'efficienza del raffreddamento, ma non spiega completamente l'elevato rapporto di compressione.
+
+**Conclusione:**
+L'elevato rapporto di compressione (13.48) indica un problema significativo che richiede attenzione. Anche se la temperatura di scarico è all'interno del range normale, la sua deviazione dal valore previsto e l'elevato rapporto di compressione suggeriscono un problema che non è probabilmente causato da condizioni ambientali temporanee. Pertanto, questa anomalia è classificata come ""ANOMALIA VERA"" e richiede un intervento di manutenzione per verificare le valvole e il sistema di raffreddamento."
+2024-04-17 15:00:00,FALSE_POSITIVE,TRUE_POSITIVE,120.62044462411708,2.3720583200328136,18.184242315949504,61.5006519052789,"FALSO POSITIVO
+
+**Analisi Tecnica:**
+
+- **Rapporto di compressione**: Il rapporto di compressione è calcolato come pressione di scarico diviso pressione di aspirazione, che in questo caso è 8.94/1.03 = 8.68. Questo valore è superiore al range ottimale (4.0-6.5) e alla soglia di attenzione (6.5-8.0), ma non supera la soglia critica (>8.0). 
+
+- **Temperatura di scarico**: La temperatura di scarico è leggermente inferiore alla prevista (120.62°C vs 121.15°C), ma è all'interno del range normale (80-120°C).
+
+- **Vibrazione**: La vibrazione è leggermente superiore al previsto (2.37 mm/s vs 2.30 mm/s), ma è all'interno del range normale (0.5-3.0 mm/s).
+
+- **Condizioni ambientali**: La temperatura ambiente (18.18°C) e l'umidità (61.50%) sono entro i limiti normali, mentre la pressione atmosferica (1010.26 hPa) è leggermente bassa, ma non è un fattore critico.
+
+**Conclusione:**
+L'anomalia è principalmente dovuta al rapporto di compressione che è oltre il range ottimale, ma non supera la soglia critica. La temperatura di scarico è all'interno del range normale e la vibrazione è leggermente superiore al previsto, ma non è critica. Le condizioni ambientali non mostrano fattori estremi che possano spiegare l'anomalia. Tuttavia, considerando che l'anomalia non supera le soglie critiche e che non ci sono altre anomalie significative, si tratta di un falso positivo. Si consiglia di monitorare l'evoluzione di questi parametri nel tempo per confermare questa conclusione."
+2024-04-08 04:00:00,TRUE_POSITIVE,TRUE_POSITIVE,133.45730912519653,3.2476358480865555,24.840843332842883,71.84546522150141,"ANOMALIA VERA - MANUTENZIONE NECESSARIA
+
+**Analisi Tecnica:**
+
+- **Temperatura di scarico:** La temperatura di scarico è di 133.46°C, che è superiore al valore previsto di 121.25°C. Questo valore è all'interno della soglia di attenzione (120-145°C) ma non supera la soglia critica (145°C). Tuttavia, in combinazione con altri parametri, può indicare un problema.
+
+- **Pressione di scarico:** La pressione di scarico è di 8.40 bar, che è superiore al valore previsto di 7.65 bar. Questo indica un rapporto di compressione di 7.57, che è al limite superiore del range ottimale (4.0-6.5) e all'inizio della zona di attenzione (6.5-8.0).
+
+- **Pressione di aspirazione:** La pressione di aspirazione è di 1.11 bar, che è uguale al valore previsto. Non ci sono anomalie rilevanti in questo parametro.
+
+- **Vibrazione:** La vibrazione è di 3.25 mm/s, che è superiore al valore previsto di 2.21 mm/s. Questo valore è all'interno della soglia di attenzione (3.0-4.5 mm/s) ma non supera la soglia critica (4.5 mm/s). Tuttavia, la vibrazione elevata può indicare un problema meccanico.
+
+- **Condizioni ambientali:** La temperatura ambiente è di 24.84°C, l'umidità è del 71.85% e la pressione atmosferica è di 1005.44 hPa. Queste condizioni ambientali non sono estreme e non spiegano completamente le anomalie rilevate.
+
+**Conclusione:**
+L'analisi dei parametri del compressore indica un'anomalia vera che richiede manutenzione. La combinazione di una temperatura di scarico elevata, un rapporto di compressione al limite superiore del range ottimale e una vibrazione anomala suggerisce un problema meccanico o di raffreddamento. Queste anomalie non sono completamente spiegabili dalle condizioni ambientali attuali e richiedono un'ispezione più approfondita per identificare e risolvere il problema."
+2024-04-27 20:00:00,TRUE_POSITIVE,TRUE_POSITIVE,143.87312462094656,2.912662808639153,18.697137208915777,70.7845728350537,"ANOMALIA VERA - MANUTENZIONE NECESSARIA
+
+**Analisi Tecnica:**
+
+- **Temperatura di scarico:** La temperatura di scarico è di 143.87°C, che è oltre la soglia di attenzione (120-145°C) e si avvicina alla soglia critica (>145°C). La temperatura ambiente è di 18.70°C, che non è particolarmente elevata da spiegare l'eccesso di temperatura. Pertanto, l'eccesso di temperatura di scarico potrebbe essere dovuto a un problema di raffreddamento o a un sovraccarico termico prolungato.
+
+- **Pressione di scarico:** La pressione di scarico è di 8.56 bar, che è superiore al valore previsto (8.02 bar). Questo potrebbe indicare un sovraccarico o un problema con le valvole.
+
+- **Vibrazione:** La vibrazione è di 2.91 mm/s, che è superiore alla soglia di attenzione (3.0-4.5 mm/s). Questo potrebbe indicare un problema meccanico, come un disallineamento o un'usura dei cuscinetti.
+
+- **Rapporto di compressione:** Il rapporto di compressione è di 9.1, che è superiore al range ottimale (4.0-6.5) e alla soglia di attenzione (6.5-8.0). Questo potrebbe indicare un problema con le valvole o perdite nel sistema di compressione.
+
+- **Condizioni ambientali:** La temperatura ambiente è di 18.70°C, l'umidità è del 70.78% e la pressione atmosferica è di 1018.16 hPa. Questi valori non sono particolarmente estremi da spiegare le anomalie rilevate.
+
+In base a queste informazioni, l'anomalia è classificata come ""ANOMALIA VERA - MANUTENZIONE NECESSARIA"". Le deviazioni dei parametri del compressore indicano un deterioramento delle prestazioni che non sembra essere correlato a condizioni ambientali estreme. Pertanto, è necessario eseguire una diagnosi completa del compressore e pianificare un intervento di manutenzione."
+2024-04-09 01:00:00,TRUE_POSITIVE,TRUE_POSITIVE,120.07442372907056,2.5929131987935587,23.616506685020354,71.30040518281086,"ANOMALIA VERA - MANUTENZIONE NECESSARIA
+
+**Analisi Tecnica:**
+
+- **Rapporto di compressione**: Il rapporto di compressione calcolato è di 9.6 (pressione di scarico di 9.87 bar / pressione di aspirazione di 1.03 bar). Questo valore è oltre il range ottimale (4.0-6.5) e oltre la soglia di attenzione (6.5-8.0), superando la soglia critica (>8.0). Questo indica un possibile problema alle valvole o perdite nel sistema di compressione.
+
+- **Temperatura di scarico**: La temperatura di scarico è di 120.07°C, che è al limite superiore del range normale (80-120°C). Tuttavia, considerando l'elevato rapporto di compressione, la temperatura di scarico potrebbe aumentare ulteriormente se il problema non viene affrontato.
+
+- **Vibrazione**: La vibrazione è di 2.59 mm/s, che è al limite superiore del range normale (0.5-3.0 mm/s). Questo potrebbe indicare un problema meccanico, ma non è ancora nella zona di attenzione (3.0-4.5 mm/s).
+
+- **Condizioni ambientali**: La temperatura ambiente è di 23.62°C, l'umidità è del 71.30% e la pressione atmosferica è di 1010.75 hPa. Queste condizioni ambientali non sono particolarmente estreme e non spiegano completamente l'elevato rapporto di compressione e la temperatura di scarico.
+
+**Conclusione:**
+L'elevato rapporto di compressione (9.6) e la temperatura di scarico (120.07°C) indicano un problema reale che potrebbe portare a un sovraccarico termico e a un deterioramento delle prestazioni del compressore. Questa anomalia non è correlata a condizioni ambientali estreme e persiste al di sopra delle soglie critiche. Pertanto, è necessario un intervento di manutenzione per diagnosticare e risolvere il problema."
+2024-06-16 19:00:00,TRUE_POSITIVE,TRUE_POSITIVE,114.00504239529992,2.697397039996986,21.6421646105634,86.50232146896445,"ANOMALIA VERA - MANUTENZIONE NECESSARIA
+
+**Analisi Tecnica:**
+
+- **Rapporto di compressione**: Il rapporto di compressione è calcolato come la pressione di scarico diviso la pressione di aspirazione. Nel caso in esame, il rapporto di compressione è di 9.42/1.01 = 9.33, che supera la soglia critica di 8.0. Questo indica un possibile problema alle valvole o perdite nel sistema di compressione, che richiede un'ispezione e potrebbe necessitare di manutenzione.
+
+- **Temperatura di scarico**: La temperatura di scarico è di 114.01°C, che è leggermente superiore al valore previsto di 113.38°C. Tuttavia, la temperatura ambiente è di 21.64°C, che non è particolarmente elevata, e l'umidità è molto alta (86.50%). L'elevata umidità potrebbe influire sull'efficienza del sistema di raffreddamento, ma la temperatura di scarico non è critica.
+
+- **Vibrazione**: La vibrazione è di 2.70 mm/s, che è superiore alla soglia di attenzione di 3.0 mm/s, ma non supera la soglia critica di 4.5 mm/s. Tuttavia, la vibrazione è un indicatore importante di problemi meccanici e dovrebbe essere monitorata attentamente.
+
+- **Condizioni ambientali**: L'umidità elevata (86.50%) potrebbe influire temporaneamente sull'efficienza del sistema di raffreddamento, ma non è sufficiente per spiegare completamente l'elevato rapporto di compressione.
+
+In conclusione, l'elevato rapporto di compressione oltre la soglia critica (9.33) indica un'anomalia vera che richiede manutenzione. Anche se la temperatura di scarico e la vibrazione sono leggermente elevate, l'elevato rapporto di compressione suggerisce un problema reale che potrebbe portare a guasti se non viene affrontato. Pertanto, è consigliabile pianificare un'ispezione e una possibile manutenzione del compressore."
+2024-05-27 00:00:00,TRUE_POSITIVE,FALSE_POSITIVE,130.16360640855882,2.1287794440087837,27.420424112207364,62.5349026447182,"FALSO POSITIVO
+
+**Analisi:**
+
+- **Temperatura di scarico**: La temperatura di scarico è di 130.16°C, che è al di sopra del valore previsto di 116.86°C. Tuttavia, la temperatura ambiente è di 27.42°C, che è relativamente alta. Secondo la guida, una temperatura ambiente elevata può aumentare la temperatura di scarico di 5-15°C. Pertanto, l'aumentoata temperatura di scarico può essere attribuita alla temperatura ambiente elevata.
+
+- **Pressione di scarico**: La pressione di scarico è di 8.03 bar, leggermente inferiore al valore previsto di 8.07 bar. Questo non indica un problema significativo.
+
+- **Pressione di aspirazione**: La pressione di aspirazione è di 1.03 bar, leggermente inferiore al valore previsto di 1.04 bar. Questo non indica un problema significativo.
+
+- **Vibrazione**: La vibrazione è di 2.13 mm/s, leggermente inferiore al valore previsto di 2.32 mm/s. Questo non indica un problema significativo.
+
+- **Rapporto di compressione**: Il rapporto di compressione è di 7.78, che è al di sopra del range ottimale (4.0-6.5) ma non supera la soglia critica (8.0). Pertanto, non è un indicatore di un'anomalia vera.
+
+- **Condizioni ambientali**: La temperatura ambiente è relativamente alta (27.42°C) e l'umidità è di 62.53%. Questi fattori possono influire temporaneamente sulle prestazioni del compressore.
+
+In conclusione, l'anomalia è probabilmente dovuta alle condizioni ambientali e non richiede interventi di manutenzione immediati. Si consiglia di monitorare i parametri del compressore per verificare se la situazione si normalizza con il cambiamento delle condizioni ambientali."
+2024-03-09 01:00:00,FALSE_POSITIVE,FALSE_POSITIVE,115.10384326256349,2.1851326358127,21.628915692289738,75.40676575606822,"FALSO POSITIVO
+
+**Analisi Tecnica:**
+
+- **Rapporto di compressione**: Il rapporto di compressione è calcolato come la pressione di scarico diviso la pressione di aspirazione. Nel caso in esame, il rapporto di compressione è di circa 7.4 (8.44 bar / 1.14 bar). Questo valore è leggermente al di sopra del range ottimale (4.0-6.5), ma non supera la soglia critica (8.0). 
+
+- **Temperatura di scarico**: La temperatura di scarico è di 115.10°C, che è al di sopra del range normale (80-120°C) ma non supera la soglia di attenzione (120-145°C) o la soglia critica (>145°C). 
+
+- **Vibrazione**: La vibrazione è di 2.19 mm/s, che è all'interno del range normale (0.5-3.0 mm/s).
+
+- **Condizioni ambientali**: La temperatura ambiente è di 21.63°C, l'umidità è del 75.41% e la pressione atmosferica è di 1021.50 hPa. L'umidità elevata (75.41%) potrebbe influire temporaneamente sull'efficienza del sistema di raffreddamento, causando un aumento della temperatura di scarico.
+
+- **Persistenza**: Non ci sono dati sulla persistenza dell'anomalia. Tuttavia, considerando che la temperatura di scarico è solo leggermente al di sopra del range normale e che l'umidità è elevata, è probabile che l'anomalia sia temporanea e si risolva spontaneamente con una riduzione dell'umidità o con una variazione delle condizioni ambientali.
+
+In conclusione, l'anomalia è probabilmente dovuta a condizioni ambientali temporanee, in particolare l'umidità elevata, che potrebbe influire sull'efficienza del sistema di raffreddamento. Non ci sono segni di un deterioramento delle prestazioni del compressore che richieda un intervento di manutenzione immediato. Pertanto, questa anomalia è classificata come un falso positivo. Si consiglia di monitorare l'evoluzione dei parametri nel tempo e di verificare se la situazione si risolve spontaneamente con una riduzione dell'umidità o con una variazione delle condizioni ambientali."
+2024-05-29 11:00:00,TRUE_POSITIVE,TRUE_POSITIVE,137.67516917672847,3.3472222854064864,25.69135773237569,61.78319955659983,"ANOMALIA VERA - MANUTENZIONE NECESSARIA
+
+**Analisi Tecnica:**
+
+- **Temperatura di scarico:** La temperatura di scarico è di 137.68°C, che è superiore al valore previsto di 124.68°C. Questo valore è all'interno della soglia di attenzione (120-145°C), ma è comunque un aumento significativo rispetto al valore previsto. La temperatura ambiente di 25.69°C non è particolarmente elevata da spiegare un aumento così significativo della temperatura di scarico, suggerendo un possibile problema di raffreddamento o sovraccarico termico.
+
+- **Pressione di scarico:** La pressione di scarico è di 8.08 bar, superiore al valore previsto di 7.29 bar. Questo aumento indica un possibile sovraccarico o un problema con il sistema di compressione.
+
+- **Pressione di aspirazione:** La pressione di aspirazione è di 0.97 bar, leggermente inferiore al valore previsto di 0.98 bar. Questo valore è all'interno del range normale, ma in combinazione con gli altri parametri, suggerisce un possibile problema.
+
+- **Vibrazione:** La vibrazione è di 3.35 mm/s, superiore al valore previsto di 2.13 mm/s. Questo valore è all'interno della soglia di attenzione (3.0-4.5 mm/s), ma è un aumento significativo rispetto al valore previsto. L'aumento della vibrazione suggerisce un problema meccanico, come disallineamento o usura dei cuscinetti.
+
+- **Rapporto di compressione:** Il rapporto di compressione è di 8.08/0.97 = 8.33, che è oltre il range ottimale (4.0-6.5) e indica un problema con il sistema di compressione, probabilmente dovuto a problemi alle valvole o perdite nel sistema.
+
+- **Condizioni ambientali:** La temperatura ambiente di 25.69°C, l'umidità del 61.78% e la pressione atmosferica di 1001.63 hPa non sembrano essere fattori che possano spiegare l'aumento significativo dei parametri del compressore.
+
+In conclusione, l'aumento significativo della temperatura di scarico, della pressione di scarico, della vibrazione e del rapporto di compressione, combinato con la persistenza di questi valori, suggerisce un'anomalia vera che richiede un intervento di manutenzione. Non sembra che le condizioni ambientali siano la causa principale di queste deviazioni. È consigliabile eseguire una diagnosi completa del compressore per identificare e risolvere il problema."
+2024-03-28 22:00:00,TRUE_POSITIVE,TRUE_POSITIVE,118.18105803063152,2.783309895341997,18.525194681018192,63.26173755202309,"ANOMALIA VERA - MANUTENZIONE NECESSARIA
+
+**Analisi Tecnica:**
+
+- **Rapporto di compressione**: Il rapporto di compressione calcolato è di 9.6 (pressione di scarico di 8.90 bar / pressione di aspirazione di 0.93 bar). Questo valore è oltre il range ottimale (4.0-6.5) e oltre la soglia critica (>8.0). Questo potrebbe indicare un problema alle valvole o perdite nel sistema di compressione.
+
+- **Temperatura di scarico**: La temperatura di scarico è di 118.18°C, che è all'interno del range normale (80-120°C). Tuttavia, considerando il rapporto di compressione elevato, potrebbe indicare un sovraccarico termico che potrebbe portare a problemi a lungo termine se non affrontato.
+
+- **Vibrazione**: La vibrazione è di 2.78 mm/s, che è all'interno della soglia di attenzione (3.0-4.5 mm/s). Questo potrebbe indicare un problema meccanico in via di sviluppo.
+
+- **Condizioni ambientali**: La temperatura ambiente è di 18.53°C, l'umidità è del 63.26% e la pressione atmosferica è di 1017.46 hPa. Questi valori non sembrano essere fuori dal normale e non spiegano l'elevato rapporto di compressione.
+
+In base a queste informazioni, l'anomalia è classificata come ""ANOMALIA VERA - MANUTENZIONE NECESSARIA"". L'elevato rapporto di compressione e la vibrazione leggermente elevata indicano un problema potenziale che potrebbe richiedere un intervento di manutenzione. Si consiglia di eseguire una diagnosi completa del compressore, con particolare attenzione alle valvole e al sistema di compressione."
+2024-04-19 20:00:00,FALSE_POSITIVE,TRUE_POSITIVE,125.82497024130498,2.3899706624641546,21.202432086612426,54.86843053434451,"FALSO POSITIVO
+
+ANALISI TECNICA:
+
+L'analisi dei parametri del compressore e delle condizioni ambientali suggerisce che l'anomalia rilevata è probabilmente un falso positivo. Ecco i dettagli:
+
+1. **Parametri del Compressore:**
+   - La temperatura di scarico è lievemente inferiore al valore previsto (125.82°C vs 125.95°C), il che è all'interno del range normale.
+   - La pressione di scarico è al di sopra del range normale (9.16 bar vs 8.12 bar), indicando un rapporto di compressione di 8.1, che è al limite superiore del range critico.
+   - La pressione di aspirazione è all'interno del range normale (1.13 bar vs 1.13 bar).
+   - La vibrazione è leggermente superiore al valore previsto (2.39 mm/s vs 2.28 mm/s), ma non supera la soglia di attenzione (3.0 mm/s).
+
+2. **Condizioni Ambientali:**
+   - La temperatura ambiente è all'interno del range normale (21.20°C).
+   - L'umidità è all'interno del range normale (54.87%).
+   - La pressione atmosferica è all'interno del range normale (1016.91 hPa).
+
+3. **Analisi:**
+   - Il rapporto di compressione è al limite superiore del range critico (8.1), ma non supera la soglia critica (8.0). Questo potrebbe essere dovuto a condizioni temporanee di carico o variazioni ambientali.
+   - La vibrazione è leggermente superiore al valore previsto, ma non supera la soglia di attenzione (3.0 mm/s). Questo potrebbe essere dovuto a condizioni temporanee di carico o variazioni ambientali.
+   - La temperatura di scarico è all'interno del range normale e non supera la soglia di attenzione (145°C).
+
+In base a queste informazioni, l'anomalia rilevata è probabilmente un falso positivo. Le deviazioni rilevate non superano le soglie critiche e sono probabilmente dovute a condizioni temporanee di carico o variazioni ambientali. Pertanto, non si richiedono interventi di manutenzione immediati. Tuttavia, è consigliato continuare il monitoraggio del sistema per verificare se le deviazioni persistono nel tempo."
+2024-04-09 08:00:00,TRUE_POSITIVE,TRUE_POSITIVE,118.0860497654844,2.6517411873701118,27.270034491438118,79.9696334082834,"ANOMALIA VERA - MANUTENZIONE NECESSARIA
+
+**Analisi Tecnica:**
+
+- **Rapporto di compressione**: Il rapporto di compressione è calcolato come la pressione di scarico diviso la pressione di aspirazione. Nel caso in esame, il rapporto di compressione è di 9.61/0.99 = 9.71, che è oltre il range ottimale (4.0-6.5) e la soglia di attenzione (6.5-8.0), superando la soglia critica (>8.0). Questo indica un problema potenziale alle valvole o perdite nel sistema di compressione.
+
+- **Temperatura di scarico**: La temperatura di scarico è di 118.09°C, che è al limite superiore del range normale (80-120°C). Tuttavia, la temperatura ambiente è di 27.27°C, che non è particolarmente elevata e non giustifica un aumento significativo della temperatura di scarico. Inoltre, la temperatura di scarico è superiore di 0.44°C rispetto al valore previsto, indicando un possibile problema di raffreddamento.
+
+- **Vibrazione**: La vibrazione è di 2.65 mm/s, che è al limite superiore del range normale (0.5-3.0 mm/s) e nella soglia di attenzione (3.0-4.5 mm/s). Questo potrebbe indicare un problema meccanico, come un disallineamento o un problema con i cuscinetti.
+
+- **Condizioni ambientali**: La temperatura ambiente è di 27.27°C, l'umidità è del 79.97% e la pressione atmosferica è di 1007.98 hPa. Queste condizioni ambientali non sono particolarmente estreme e non dovrebbero causare un aumento significativo della temperatura di scarico o del rapporto di compressione.
+
+In conclusione, l'anomalia è classificata come ""ANOMALIA VERA"" poiché il rapporto di compressione è oltre la soglia critica, la temperatura di scarico è al limite superiore del range normale e la vibrazione è nella soglia di attenzione. Questi fattori indicano un problema potenziale del compressore che richiede un intervento di manutenzione."
+2024-04-16 08:00:00,FALSE_POSITIVE,TRUE_POSITIVE,136.40808706375674,1.8882209121310312,25.86152732026524,72.3528088726831,"ANOMALIA TRANSITORIA - MONITORAGGIO CONSIGLIATO
+
+**Analisi Tecnica:**
+
+- **Temperatura di scarico:** La temperatura di scarico è di 136.41°C, che è superiore al valore previsto di 120.55°C. Tuttavia, la temperatura ambiente è di 25.86°C, che è relativamente alta, e potrebbe spiegare in parte l'aumento della temperatura di scarico. La temperatura di scarico è nella zona di attenzione ma non supera la soglia critica di 145°C.
+
+- **Pressione di scarico:** La pressione di scarico è di 7.50 bar, leggermente superiore al valore previsto di 7.44 bar. Questa variazione potrebbe essere dovuta a condizioni ambientali o variazioni di carico.
+
+- **Pressione di aspirazione:** La pressione di aspirazione è di 0.89 bar, leggermente inferiore al valore previsto di 0.93 bar. Questa variazione potrebbe essere dovuta a condizioni ambientali o variazioni di carico.
+
+- **Vibrazione:** La vibrazione è di 1.89 mm/s, leggermente inferiore al valore previsto di 2.09 mm/s. Questo valore è all'interno del range normale e non indica problemi meccanici.
+
+- **Condizioni ambientali:** La temperatura ambiente è di 25.86°C, l'umidità è del 72.35% e la pressione atmosferica è di 1011.18 hPa. Questi valori ambientali possono influenzare le prestazioni del compressore, ma non sono estremi da causare un'anomalia critica.
+
+**Conclusione:**
+L'aumento della temperatura di scarico e delle pressioni potrebbe essere correlato alle condizioni ambientali e/o variazioni di carico. Non ci sono segni di problemi meccanici evidenti, dato che la vibrazione è all'interno del range normale. Inoltre, non ci sono anomalie critiche che superano le soglie di attenzione o critiche. Pertanto, questa situazione è considerata un'anomalia transitoria e non richiede interventi di manutenzione immediata. Tuttavia, è consigliato continuare il monitoraggio del sistema per verificare se la situazione si normalizza o persiste nel tempo."
+2024-04-06 11:00:00,TRUE_POSITIVE,TRUE_POSITIVE,124.82667256617636,2.098979223342222,23.390903480079103,77.16489559912453,"**ANOMALIA VERA - MANUTENZIONE NECESSARIA**
+
+**Analisi Tecnica:**
+
+- **Rapporto di compressione**: Il rapporto di compressione è calcolato come la pressione di scarico diviso la pressione di aspirazione, il che dà un rapporto di 8.72, che è oltre il range ottimale (8.0). Questo indica un possibile problema alle valvole o perdite nel sistema di compressione.
+
+- **Temperatura di scarico**: La temperatura di scarico è di 124.83°C, che è leggermente superiore al valore previsto (124.71°C). Tuttavia, la temperatura ambiente è di 23.39°C, che è all'interno del range normale, suggerendo che l'aumento della temperatura di scarico non sia dovuto a condizioni ambientali estreme.
+
+- **Vibrazione**: La vibrazione è di 2.10 mm/s, che è all'interno del range normale, ma è leggermente inferiore al valore previsto (2.32 mm/s). Questo potrebbe indicare un problema di sovraccarico o inefficienza del sistema di raffreddamento.
+
+- **Condizioni ambientali**: La temperatura ambiente è di 23.39°C, l'umidità è del 77.16%, e la pressione atmosferica è di 1012.44 hPa. Questi valori non indicano condizioni estreme che potrebbero causare una deviazione significativa dei parametri del compressore.
+
+**Conclusione:**
+L'elevato rapporto di compressione (8.72) suggerisce un problema reale nel sistema di compressione, che potrebbe richiedere un intervento di manutenzione. Anche se la temperatura di scarico è leggermente superiore al previsto, non è sufficiente per indicare un problema critico, ma in combinazione con l'elevato rapporto di compressione, suggerisce un problema che potrebbe richiedere un'ispezione più approfondita. Pertanto, si consiglia di pianificare un'ispezione e una possibile manutenzione per verificare le valvole e il sistema di raffreddamento."
+2024-04-08 03:00:00,TRUE_POSITIVE,TRUE_POSITIVE,137.87942873364236,3.770120015812904,29.097244584687253,76.97097623076321,"ANOMALIA VERA - MANUTENZIONE NECESSARIA
+
+**Analisi Tecnica:**
+
+- **Temperatura di scarico:** La temperatura di scarico è di 137.88°C, che è superiore al valore previsto di 121.70°C. Questo valore è all'interno della soglia di attenzione (120-145°C) ma non supera la soglia critica (145°C). Tuttavia, la temperatura di scarico è significativamente alta rispetto al valore previsto, indicando un potenziale problema di raffreddamento o sovraccarico termico.
+
+- **Pressione di scarico:** La pressione di scarico è di 8.15 bar, che è superiore al valore previsto di 7.64 bar. Questo indica un rapporto di compressione di 7.34, che è al limite superiore del range ottimale (4.0-6.5) e all'inizio della soglia di attenzione (6.5-8.0). Questo potrebbe indicare un problema con le valvole o un sovraccarico del sistema.
+
+- **Vibrazione:** La vibrazione è di 3.77 mm/s, che è superiore al valore previsto di 2.24 mm/s. Questo valore è all'interno della soglia di attenzione (3.0-4.5 mm/s) ma non supera la soglia critica (4.5 mm/s). Tuttavia, la vibrazione elevata suggerisce un problema meccanico, come disallineamento, cuscinetti usati o problemi con le valvole.
+
+- **Condizioni ambientali:** La temperatura ambiente è di 29.10°C, l'umidità è del 76.97% e la pressione atmosferica è di 1010.91 hPa. La temperatura ambiente è relativamente alta, ma non eccezionale, e non spiega completamente l'elevata temperatura di scarico e la vibrazione.
+
+**Conclusione:**
+L'anomalia è classificata come ""ANOMALIA VERA - MANUTENZIONE NECESSARIA"" poiché:
+- La temperatura di scarico è significativamente alta rispetto al valore previsto, nonostante la temperatura ambiente non sia eccezionalmente elevata.
+- La vibrazione è elevata, indicando un problema meccanico.
+- Il rapporto di compressione è al limite superiore del range ottimale, indicando potenziali problemi con le valvole o il sistema di compressione.
+
+Questi fattori combinati indicano un problema reale che richiede un intervento di manutenzione per verificare e risolvere eventuali problemi meccanici, problemi di raffreddamento o problemi con le valvole."
+2024-05-05 17:00:00,TRUE_POSITIVE,TRUE_POSITIVE,138.50238025760893,3.11919921945435,17.282531834578833,61.17353027205847,"ANOMALIA VERA - MANUTENZIONE NECESSARIA
+
+**Analisi Tecnica:**
+
+- **Rapporto di compressione**: Il rapporto di compressione è calcolato come la pressione di scarico diviso la pressione di aspirazione, che in questo caso è 8.38 bar / 0.98 bar = 8.55. Questo valore è oltre il range ottimale (4.0-6.5) e oltre la soglia di attenzione (6.5-8.0), superando la soglia critica (>8.0). Questo indica un possibile problema alle valvole o perdite nel sistema di compressione.
+
+- **Temperatura di scarico**: La temperatura di scarico è di 138.50°C, che è superiore alla temperatura prevista (127.07°C). La temperatura di scarico è oltre la soglia di attenzione (120-145°C) e si avvicina alla soglia critica (>145°C). Questo potrebbe indicare un sovraccarico termico o un problema con il sistema di raffreddamento.
+
+- **Vibrazione**: La vibrazione è di 3.12 mm/s, che è superiore alla vibrazione prevista (2.11 mm/s) e si trova nella zona di attenzione (3.0-4.5 mm/s). Questo potrebbe indicare un problema meccanico, come un disallineamento o un'usura dei cuscinetti.
+
+- **Condizioni ambientali**: La temperatura ambiente è di 17.28°C, l'umidità è del 61.17% e la pressione atmosferica è di 1003.94 hPa. Queste condizioni ambientali non sono particolarmente estreme e non spiegano completamente le anomalie rilevate.
+
+**Conclusione:**
+Le anomalie rilevate non sembrano essere causate da condizioni ambientali estreme. La combinazione di un rapporto di compressione critico, una temperatura di scarico elevata e una vibrazione anomala suggerisce un problema reale che richiede un intervento di manutenzione. La persistenza di queste anomalie e la loro severità indicano che non si tratta di un falso positivo. È consigliabile eseguire una diagnosi completa del compressore e pianificare un intervento di manutenzione per verificare e risolvere i possibili problemi meccanici e di compressione."
+2024-04-16 03:00:00,TRUE_POSITIVE,TRUE_POSITIVE,143.98565847923413,2.069885941967555,26.53112662891671,64.05861910339003,"ANOMALIA VERA - MANUTENZIONE NECESSARIA
+
+**Analisi Tecnica:**
+
+- **Temperatura di scarico:** La temperatura di scarico è di 143.99°C, che è oltre la soglia di attenzione (120-145°C) e si avvicina alla soglia critica (>145°C). La temperatura di scarico è significativamente superiore al valore previsto (123.03°C), indicando un possibile problema di sovraccarico termico o inefficienza del sistema di raffreddamento. La temperatura ambiente (26.53°C) non è particolarmente elevata da spiegare tale aumento, suggerendo un problema interno al compressore.
+
+- **Pressione di scarico:** La pressione di scarico è di 7.30 bar, leggermente inferiore al previsto (7.47 bar). Questo potrebbe indicare una perdita di efficienza del sistema di compressione, ma non è un indicatore forte da solo.
+
+- **Pressione di aspirazione:** La pressione di aspirazione è di 0.94 bar, leggermente inferiore al previsto (0.95 bar). Questo potrebbe indicare una perdita di efficienza, ma non è un indicatore forte da solo.
+
+- **Vibrazione:** La vibrazione è di 2.07 mm/s, che è all'interno del range normale (0.5-3.0 mm/s). Non indica un problema meccanico evidente.
+
+- **Rapporto di compressione:** Calcolando il rapporto di compressione (pressione di scarico / pressione di aspirazione), otteniamo 7.77, che è oltre il range ottimale (4.0-6.5) e nella zona di attenzione (6.5-8.0). Questo indica un possibile problema alle valvole o perdite nel sistema di compressione.
+
+- **Condizioni ambientali:** La temperatura ambiente (26.53°C) e l'umidità (64.06%) sono entro i limiti normali e non spiegano l'aumento significativo della temperatura di scarico. La pressione atmosferica (1012.87 hPa) è anche entro i limiti normali.
+
+**Conclusione:**
+L'aumento significativo della temperatura di scarico e il rapporto di compressione oltre il range ottimale indicano un'anomalia vera che richiede manutenzione. Le condizioni ambientali non spiegano adeguatamente l'aumento della temperatura di scarico, suggerendo un problema interno al compressore. La persistenza di queste condizioni e la loro non-correlazione con condizioni ambientali indicano che è necessario un intervento di manutenzione per diagnosticare e risolvere il problema."
+2024-06-10 07:00:00,TRUE_POSITIVE,TRUE_POSITIVE,120.57962620466112,2.186971617874969,31.32678807866889,66.60735002149472,"FALSO POSITIVO
+
+**Analisi Tecnica:**
+
+- **Temperatura di scarico:** La temperatura di scarico è leggermente inferiore al valore previsto (120.58°C vs 122.01°C). Questo valore è all'interno del range normale (80-120°C) e non supera la soglia di attenzione (120-145°C). Pertanto, non è un indicatore di un'anomalia vera.
+
+- **Pressione di scarico:** La pressione di scarico è significativamente superiore al previsto (9.28 bar vs 7.95 bar). Questo potrebbe indicare un'anomalia, ma è necessario considerare anche gli altri parametri e le condizioni ambientali.
+
+- **Pressione di aspirazione:** La pressione di aspirazione è leggermente superiore al previsto (1.00 bar vs 0.95 bar). Questo potrebbe indicare un'anomalia, ma non è un indicatore forte da solo.
+
+- **Vibrazione:** La vibrazione è leggermente inferiore al previsto (2.19 mm/s vs 2.37 mm/s). Questo valore è all'interno del range normale (0.5-3.0 mm/s) e non supera la soglia di attenzione (3.0-4.5 mm/s). Pertanto, non è un indicatore di un'anomalia vera.
+
+- **Rapporto di compressione:** Il rapporto di compressione è calcolato come pressione di scarico diviso pressione di aspirazione, che in questo caso è 9.28/1.00 = 9.28. Questo valore supera il range ottimale (4.0-6.5) e la soglia di attenzione (6.5-8.0), ma non supera la soglia critica (>8.0). 
+
+- **Condizioni ambientali:** La temperatura ambiente è elevata (31.33°C), che può influire sulla temperatura di scarico. Secondo le regole, una temperatura ambiente elevata può aumentare la temperatura di scarico di 5-15°C. In questo caso, la temperatura di scarico è inferiore al valore previsto, il che suggerisce che l'elevata temperatura ambiente non ha avuto un impatto significativo sulla temperatura di scarico.
+
+**Conclusione:**
+L'elevata pressione di scarico e il rapporto di compressione elevato potrebbero suggerire un'anomalia, ma considerando la temperatura ambiente elevata (31.33°C) e la vibrazione all'interno del range normale, è probabile che l'anomalia sia temporanea e correlata alle condizioni ambientali. Inoltre, la temperatura di scarico è inferiore al previsto, il che suggerisce che l'elevata temperatura ambiente non ha avuto un impatto significativo. Pertanto, questa situazione è classificata come un falso positivo. Si consiglia di continuare il monitoraggio del sistema e di verificare se le condizioni si normalizzano con il cambiamento delle condizioni ambientali."
