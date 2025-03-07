@@ -1,0 +1,170 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>LLM Anomaly Prediction Report</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+                h1, h2, h3 { color: #2c3e50; }
+                .metric { margin-bottom: 10px; }
+                .metric span { font-weight: bold; color: #3498db; }
+                .success { color: #27ae60; font-weight: bold; }
+                .failure { color: #e74c3c; font-weight: bold; }
+                .container { display: flex; flex-wrap: wrap; }
+                .image-container { margin-right: 20px; margin-bottom: 20px; }
+                table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .prediction { padding: 10px; border-left: 4px solid #3498db; margin-bottom: 15px; background-color: #f8f9fa; }
+                .prediction-header { font-weight: bold; margin-bottom: 8px; }
+                .highlight { background-color: #f8f4e5; padding: 15px; border-radius: 5px; margin-bottom: 20px; }
+            </style>
+        </head>
+        <body>
+            <h1>LLM Anomaly Prediction Report</h1>
+            <p>Generated on: 2025-03-07 16:59:35</p>
+            <p>Model: qwen-qwq-32B</p>
+            <p>User: Gaia-Cecchi</p>
+            <p>Analysis Date: 2025-03-07 15:56:12</p>
+            
+            <div class="highlight">
+                <h2>Performance Summary</h2>
+                <div class="metric">Target Accuracy: <span>92.66%</span></div>
+                <div class="metric">Accuracy Achieved: <span class="failure">89.71%</span></div>
+                <div class="metric">Status: <span class="failure">❌ TARGET NOT MET</span></div>
+            </div>
+            
+            <h2>Dataset Statistics</h2>
+            <div class="metric">Total predictions: <span>340</span></div>
+            <div class="metric">True Positives in dataset: <span>307</span></div>
+            <div class="metric">False Positives in dataset: <span>33</span></div>
+            <div class="metric">Unknown labels: <span>0</span></div>
+            
+            <h2>Performance Metrics</h2>
+            <table>
+                <tr>
+                    <th>Metric</th>
+                    <th>True Anomaly</th>
+                    <th>False Positive</th>
+                </tr>
+                <tr>
+                    <td>Precision</td>
+                    <td>90.24%</td>
+                    <td>0.00%</td>
+                </tr>
+                <tr>
+                    <td>Recall</td>
+                    <td>99.35%</td>
+                    <td>0.00%</td>
+                </tr>
+                <tr>
+                    <td>F1 Score</td>
+                    <td>94.57%</td>
+                    <td>0.00%</td>
+                </tr>
+            </table>
+            
+            <h2>Visualizations</h2>
+            <div class="container">
+                <div class="image-container">
+                    <h3>Confusion Matrix</h3>
+                    <img src="llm_confusion_matrix.png" alt="Confusion Matrix" width="400">
+                </div>
+                <div class="image-container">
+                    <h3>Classification by Temperature and Vibration</h3>
+                    <img src="llm_classification_scatter.png" alt="Classification Scatter" width="500">
+                </div>
+            </div>
+            
+            
+            <h3>Impatto degli Scenari</h3>
+            <div class="metric">Scenari trovati: <span>340</span></div>
+            <div class="metric">Predizioni con scenari: <span>340</span></div>
+            <div class="metric">Predizioni migliorate: <span>305</span></div>
+            <div class="metric">Accuratezza con scenari: <span>89.71%</span></div>
+            
+            <div class="image-container">
+                <img src="llm_scenario_impact.png" alt="Scenario Impact" width="500">
+            </div>
+            
+            
+            <h2>Execution Statistics</h2>
+            <div class="metric">Total API requests: <span>340</span></div>
+            <div class="metric">Successful requests: <span>340</span></div>
+            <div class="metric">Execution time: <span>34.30 seconds</span></div>
+            <div class="metric">Avg time per prediction: <span>0.10 seconds</span></div>
+            <div class="metric">API success rate: <span>100.0%</span></div>
+        
+            <h2>Misclassification Analysis</h2>
+            <p>Total misclassified cases: <span class="metric">35</span> out of <span class="metric">340</span> labeled cases.</p>
+            
+            <h3>Most Interesting Misclassifications</h3>
+            <table>
+                <tr>
+                    <th>#</th>
+                    <th>Actual</th>
+                    <th>Predicted</th>
+                    <th>Temperature</th>
+                    <th>Vibration</th>
+                    <th>Ambient Temp</th>
+                    <th>LLM Analysis</th>
+                </tr>
+            
+                <tr>
+                    <td>1</td>
+                    <td>FALSE_POSITIVE</td>
+                    <td>TRUE_POSITIVE</td>
+                    <td>112.7°C</td>
+                    <td>2.02 mm/s</td>
+                    <td>16.7°C</td>
+                    <td>Questa è un'anomalia vera che richiede manutenzione immediata. I parametri del compressore mostrano valori critici che indicano un deterioramento delle prestazioni. In particolare, la temperatura di scarico e/o la vibrazione superano significativamente le soglie di sicurezza per il modello CSD 102-8...</td>
+                </tr>
+                
+                <tr>
+                    <td>2</td>
+                    <td>FALSE_POSITIVE</td>
+                    <td>TRUE_POSITIVE</td>
+                    <td>112.8°C</td>
+                    <td>1.95 mm/s</td>
+                    <td>17.0°C</td>
+                    <td>Questa è un'anomalia vera che richiede manutenzione immediata. I parametri del compressore mostrano valori critici che indicano un deterioramento delle prestazioni. In particolare, la temperatura di scarico e/o la vibrazione superano significativamente le soglie di sicurezza per il modello CSD 102-8...</td>
+                </tr>
+                
+                <tr>
+                    <td>3</td>
+                    <td>FALSE_POSITIVE</td>
+                    <td>TRUE_POSITIVE</td>
+                    <td>111.7°C</td>
+                    <td>1.93 mm/s</td>
+                    <td>17.4°C</td>
+                    <td>Questa è un'anomalia vera che richiede manutenzione immediata. I parametri del compressore mostrano valori critici che indicano un deterioramento delle prestazioni. In particolare, la temperatura di scarico e/o la vibrazione superano significativamente le soglie di sicurezza per il modello CSD 102-8...</td>
+                </tr>
+                
+                <tr>
+                    <td>4</td>
+                    <td>FALSE_POSITIVE</td>
+                    <td>TRUE_POSITIVE</td>
+                    <td>115.1°C</td>
+                    <td>2.19 mm/s</td>
+                    <td>21.6°C</td>
+                    <td>Questa è un'anomalia vera che richiede manutenzione immediata. I parametri del compressore mostrano valori critici che indicano un deterioramento delle prestazioni. In particolare, la temperatura di scarico e/o la vibrazione superano significativamente le soglie di sicurezza per il modello CSD 102-8...</td>
+                </tr>
+                
+                <tr>
+                    <td>5</td>
+                    <td>FALSE_POSITIVE</td>
+                    <td>TRUE_POSITIVE</td>
+                    <td>115.9°C</td>
+                    <td>2.12 mm/s</td>
+                    <td>18.6°C</td>
+                    <td>Questa è un'anomalia vera che richiede manutenzione immediata. I parametri del compressore mostrano valori critici che indicano un deterioramento delle prestazioni. In particolare, la temperatura di scarico e/o la vibrazione superano significativamente le soglie di sicurezza per il modello CSD 102-8...</td>
+                </tr>
+                </table>
+            <h2>Conclusion</h2>
+            <p>Questo report presenta i risultati dell'applicazione di un modello LLM per la classificazione di anomalie nel compressore CSD 102-8. 
+            L'approccio ha utilizzato sia meta-training che scenari di riferimento per aumentare l'accuratezza delle predizioni.</p>
+        
+        </body>
+        </html>
+        
