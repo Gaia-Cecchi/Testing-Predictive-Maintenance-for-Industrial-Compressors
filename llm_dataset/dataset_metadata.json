@@ -1,0 +1,37 @@
+{
+  "dataset_size": 211,
+  "training_size": 148,
+  "validation_size": 42,
+  "test_size": 21,
+  "class_distribution": {
+    "TRUE_POSITIVE": 104,
+    "FALSE_POSITIVE": 107
+  },
+  "class_balance": {
+    "TRUE_POSITIVE_pct": 49.28909952606635,
+    "FALSE_POSITIVE_pct": 50.71090047393365
+  },
+  "hard_examples_count": 0,
+  "feature_columns": [
+    "discharge_temp_true",
+    "vibration_true",
+    "discharge_pressure_true",
+    "suction_pressure_true",
+    "ambient_temperature",
+    "humidity",
+    "atmospheric_pressure",
+    "bearing_temp_true",
+    "motor_speed_true",
+    "temp_vib_ratio",
+    "temp_ambient_delta",
+    "pressure_ratio",
+    "discharge_temp_critical",
+    "discharge_temp_warning",
+    "discharge_temp_low",
+    "pressure_critical",
+    "pressure_insufficient",
+    "ambient_temp_high",
+    "ambient_temp_low"
+  ],
+  "compressor_model": "CSD 102-8"
+}
